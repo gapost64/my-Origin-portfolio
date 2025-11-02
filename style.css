@@ -1,15 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f9;
+    background-color: #004466;
     color: #333;
 }
 
+a,
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #b1c7ff;
+}
+
 header {
-    background-color: #004466;
     color: white;
     padding: 1em 0;
     text-align: center;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -46,6 +55,7 @@ section {
     margin-bottom: 1em;
     border-left: 4px solid #004466;
     border-radius: 6px;
+    color: black;
 }
 
 footer {
@@ -58,4 +68,21 @@ footer {
 
 a:hover {
     text-decoration: underline;
+}
+
+.img-container {
+    border-radius: 8px;
+    overflow: hidden;
+    width: fit-content;
+    height: 300px;
+    box-shadow: #01002496 2px 2px 6px;
+}
+
+.img-container.center {
+    margin: 0 auto;
+}
+
+.main-container {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.3);
 }
